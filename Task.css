@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .maincontainer {
+  width: 380px;
+  height: 480px;
+  padding: 10px;
+}
+
+.container .maincontainer .box {
+  height: 70px;
+  border: solid 1px #ccc;
+  padding: 14px;
+  margin-bottom: 15px;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.innersize{
+  padding-bottom: 5px;
+}
+
+.innersize span {
+  color: #000;
+  font-family: Inter;
+  font-size: 9.942px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* margin-left: 25px; */
+}
+
+.innersize .para-color {
+  margin-left: 49px;
+}
+
+.innersize .select-box #size {
+  color: #000;
+  font-family: Inter;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.innersize .select-box #color {
+  color: #000;
+  font-family: Inter;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.innersize .para-size {
+  margin-left: 4px;
+}
+
+.rank {
+  margin-left: -10px;
+}
+.radio-para {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.my-input {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  margin: 5px 5px 0px 0px;
+  justify-content: center;
+}
+
+ .box .innerbox {
+  display: flex;
+}
+
+.Bundle .horizontal-line {
+  width: 112px;
+  border: solid 1px #ccc;
+}
+.size {
+  margin-left: 20px;
+}
+
+
+.Bundle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007f61;
+  font-family: Metropolis;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 0px;
+}
+.Bundle div {
+  padding: 0px 10px;
+}
+.percentage {
+  display: flex;
+  align-items: center;
+}
+.percentage b {
+  margin-left: 7px;
+}
+.percentage-two {
+  display: flex;
+  flex-direction: column;
+}
+.percentage-two h6 {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 12.653px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.percentage-two b {
+  color: #000;
+  font-family: Inter;
+  font-size: 12.653px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-left: 18px;
+}
+
+.dkk .cancel-dkk {
+  font-size: 10px;
+  color: #9f9f9f;
+  text-decoration: line-through;
+  margin-left: 35px;
+}
+.innerbox .dkk {
+  width: 220px;
+  height: 30px;
+}
+
+.dkk {
+  color: #000;
+  font-family: Metropolis;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.freeshipping-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+.freeshipping-content .freeship{
+  color: #007f61;
+}
+
+.button-section {
+  margin-top: 15px;
+  margin-left: 2px;
+}
+.button-section button {
+  width: 358px;
+  height: 48px;
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: solid 1px transparent;
+}
+
+#size {
+  width: 65.978px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+#color {
+  width: 65.978px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 10.846px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 2px;
+}
+
+input[type="radio"] {
+  accent-color: #007f61;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.container .maincontainer .footer-content i {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  padding: 7px;
+}
+.container .maincontainer .footer-content span {
+  border: solid 1px #ccc;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ccc;
+  font-family: Inter;
+  font-size: 7.333px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
